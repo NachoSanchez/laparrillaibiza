@@ -1,0 +1,15 @@
+<svg id="Capa_1" data-name="Capa 1"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 136 136">
+    <defs>
+        <style>.cls-1,.cls-3{fill:#fff;}.cls-1{stroke:#000;stroke-linejoin:round;stroke-width:5px;}.cls-2{fill:#0064b4;}</style>
+    </defs>
+    <title>lacteos</title>
+    <path class="cls-1" d="M44.91,86.64" transform="translate(-32.5 -26.5)"/>
+    <circle class="cls-2" cx="68" cy="68" r="65"/>
+    <path d="M100.5,162.5a68,68,0,1,1,68-68A68.08,68.08,0,0,1,100.5,162.5Zm0-130a62,62,0,1,0,62,62A62.07,62.07,0,0,0,100.5,32.5Z" transform="translate(-32.5 -26.5)"/>
+    <polygon class="cls-3" points="102.5 50.5 102.5 104.5 34.5 104.5 34.5 50.5 46.5 33.5 46.5 22.5 89.5 22.5 89.5 33.5 102.5 50.5"/>
+    <path class="cls-2" d="M109,75h0l9.17-13Z" transform="translate(-32.5 -26.5)"/>
+    <path class="cls-2" d="M123.64,58.85c0,.08.1.15.14.23A2,2,0,0,1,124,60v-.66Z" transform="translate(-32.5 -26.5)"/>
+    <path class="cls-2" d="M123.64,58.85c0,.08.1.15.14.23A2,2,0,0,1,124,60v-.66Z" transform="translate(-32.5 -26.5)"/>
+    <path d="M136.59,75.79,124,59.33V60a2,2,0,0,0-.22-.91c0-.08-.09-.15-.14-.23l.36.48V49a2,2,0,0,0-2-2H79a2,2,0,0,0-2,2V59.37L65.46,75.73a.94.94,0,0,0-.09.12c-.06.09-.11.18-.16.27a2.14,2.14,0,0,0-.18.54A1.87,1.87,0,0,0,65,77v54a2,2,0,0,0,2,2h68a2,2,0,0,0,2-2V77A1.94,1.94,0,0,0,136.59,75.79ZM81,51h39v7H81Zm27,78H69V79h39ZM70.86,75,80,62h38.1L109,75ZM133,129H112V77.63l10.06-14.25L133,77.68Z" transform="translate(-32.5 -26.5)"/>
+</svg>

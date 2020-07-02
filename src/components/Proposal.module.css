@@ -1,0 +1,159 @@
+/**
+======> Review Animations
+*/
+@keyframes show {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+        z-index: -1;
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        z-index: 1;
+    }
+}
+
+@keyframes hide {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.review-show {
+    animation: show 500ms ease-out;
+    animation-fill-mode: forwards;
+}
+
+.review-hide {
+    animation: hide 500ms ease-out;
+    animation-fill-mode: forwards;
+}
+
+/**
+======> Proposal Styles
+*/
+
+.proposal {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 50vh 40vh;
+    overflow: hidden;
+    padding: 100px 5vw;
+}
+
+.proposal-img {
+    left: 0;
+    margin-top: -100px;
+    position: absolute;
+    width: 55%;
+    z-index: -1
+}
+
+.proposal aside {
+    grid-column-start: 8;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.proposal h2{
+    color: cyan;
+}
+
+.proposal p {
+    margin: 20px 0;
+}
+
+.wave {
+    grid-column-start: 10;
+    grid-column-end: 13;
+    grid-row-start: 2;
+    margin-left: 70px;
+    width: 400px;
+}
+
+/**
+======> Review styles
+*/
+
+.container {
+    grid-column-start: 8;
+    grid-column-end: 13;
+    grid-row-start: 2;
+    position: relative;
+    top: 0;
+}
+
+.review {
+    background-color: #202020;
+    border-radius: 15px;
+    margin: 50px 2em;
+    padding: 5px 2em;
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+}
+
+.review img {
+    width: 100px;
+    height: fit-content;
+}
+
+.review p:last-child {
+    color: darkgray;
+    font-size: 13px;
+    text-align: end;
+}
+
+.btn-ghost {
+    border: 2.5px solid cyan;
+    border-radius: 15px;
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    margin-top: 100px;
+    padding: 10px 30px;
+}
+
+@media (max-width: 600px) {
+
+    .proposal {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 2fr);
+        padding: 0 10vw;
+    }
+
+    .proposal-img {
+        margin-top: 0px;
+        width: 90%;
+    }
+
+    .proposal aside {
+        grid-row-start: 2;
+        margin-top: -30px;
+    }
+
+    .proposal p {
+        font-size: 15px;
+    }
+
+    .wave {
+        grid-row-start: 3;
+        grid-column-start: 1;
+        margin-left: 150px;
+    }
+
+    .container {
+        grid-row-start: 3;
+        grid-column-start: 1;
+    }
+
+    .review {
+        margin: 70px auto
+    }
+
+}
