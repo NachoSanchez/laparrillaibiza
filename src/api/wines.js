@@ -426,7 +426,7 @@ export const ESP = [{
         },{
             name: 'Sangria Tina de la casa.',
             desc: '1/2 Lt.',
-            price: '10.00',
+            price: '5.00',
             allergenics: []       
         }
     ]

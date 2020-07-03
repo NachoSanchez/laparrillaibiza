@@ -29,7 +29,7 @@ const Navigation = () => {
             <img src={ logo } alt='La Parrilla Bar & Grill'/>
             <nav>
                 <div className={ styles['social-icons'] }>
-                    <a href="https://wa.me/">
+                    <a href="tel:+34971057078">
                         <svg viewBox="0 0 180.83 180.83">
                             <path 
                                 class="cls-1" 
@@ -38,7 +38,7 @@ const Navigation = () => {
                             />
                         </svg>
                     </a>
-                    <a href='https://instagram.com/'>
+                    <a href='https://instagram.com/laparrillaibiza/'>
                         <svg viewBox="0 0 181.4 181.36">
                             <path 
                                 class="cls-1" 
@@ -47,7 +47,7 @@ const Navigation = () => {
                             />
                         </svg>
                     </a>
-                    <a href='https://facebook.com'>
+                    <a href='https://www.facebook.com/laparrillaibiza'>
                         <svg viewBox="0 0 188.37 187.69">
                             <path 
                                 class="cls-1" 

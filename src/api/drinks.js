@@ -1,4 +1,4 @@
-export const ENG = {
+export const nonalcoholics = {
     titleEng: 'Non Alcoholic',
     titleEsp: 'Sin Alcohol',
     options: [
@@ -28,14 +28,24 @@ export const ENG = {
             price: '2.00',
             allergenics: []
         },{
-            name: 'KAS Lemon',
+            name: 'KAS Limon',
             desc: '200Ml.',
-            price: '3.50',
+            price: '1.50',
             allergenics: []
         },{
-            name: 'KAS Orange',
+            name: 'KAS Limon',
+            desc: '350Ml.',
+            price: '2.50',
+            allergenics: []
+        },{
+            name: 'KAS Naranja',
             desc: '200Ml.',
-            price: '3.50',
+            price: '1.50',
+            allergenics: []
+        },{
+            name: 'KAS Naranja',
+            desc: '350Ml.',
+            price: '2.50',
             allergenics: []
         },{
             name: 'Pepsi',
@@ -82,6 +92,11 @@ export const ENG = {
             desc: '200Ml. Pineapple, apple, peach or orange',
             price: '2.00',
             allergenics: []
+        },{
+            name: 'Latas Gaseosa',
+            desc: 'Pepsi, Pepsi MAX, 7 UP, Lipton',
+            price: '2.00',
+            allergenics:[]
         }
     ]
 }

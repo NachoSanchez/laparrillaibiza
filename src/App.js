@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom'
 import LanguageContextProvider from './contexts/LanguageContext';
 import Navigation from './components/Navigation';
+import Drinks from './components/Drinks';
 import Home from './components/Home';
 import Proposal from './components/Proposal';
 import Where from './components/Where';
@@ -24,7 +25,7 @@ function App() {
             <Menu />
           </Route>
           <Route path='/drinks' exact>
-            
+            <Drinks />
           </Route>
         </BrowserRouter>
       </LanguageContextProvider>

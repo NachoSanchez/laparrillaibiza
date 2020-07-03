@@ -1,4 +1,4 @@
-export const ENG =[{
+export const beersENG =[{
     title: 'Beers',
     options: [
         {
@@ -68,37 +68,47 @@ export const ENG =[{
     options: [
         {
             name: 'Mojito',
-            desc: 'Sugar, Mint, Lime Juice and Soda.',
+            desc: null,
+            price: '6.50',
+            allergenics: []
+        },{
+            name: 'Mojito La Parrilla',
+            desc: 'Flavors: Strawberry, Pinapple, Mango, Papaya, Cantaloupe and WaterMelon.',
+            price: '7.50',
+            allergenics: []
+        },{
+            name: 'Spritz La Parrilla',
+            desc: 'Flavors: Violets, Roses, Pinapple, Elder Flower, Strawberry, Cantaloupe, Watermelon, Papaya, Mango and Vanilla.',
             price: '6.50',
             allergenics: []
         },{
             name: 'Piña Colada',
-            desc: 'Bacardi Rhum, Pinapple Juice and Coconut Milk.',
+            desc: null,
             price: '6.50',
             allergenics: []
         },{
             name: 'Daikiri',
-            desc: 'Berries, Sugar, Lemon Juice and Bacardi Rhum.',
+            desc: 'Flavors: Cantaloupe, Strawberry, Coconut, Mango, Banana, Apple and Pinapple',
             price: '6.50',
             allergenics: []
         },{
             name: 'Tequila Sunrise',
-            desc: 'Tequila, Grenadine and Orange Juice.',
+            desc: null,
             price: '6.50',
             allergenics: []
         },{
             name: 'Margarita',
-            desc: 'Lime Juice, Tequila and Cointreu.',
+            desc: null,
             price: '6.50',
             allergenics: []
         },{
             name: 'Coco Loco',
-            desc: 'Bacardi Rhum, Vodka, Tequila, Coconut cream and Lime Juice.',
+            desc: null,
             price: '6.50',
             allergenics: []
         },{
             name: 'Cosmopolitan',
-            desc: 'Vodka, Cointreu, Lime Juice and Cranberry Juice.',
+            desc: null,
             price: '6.50',
             allergenics: []
         },{
@@ -123,13 +133,13 @@ export const ENG =[{
             allergenics: []
         },{
             name: 'Sex on the Beach',
-            desc: 'Orange and Cranberry Juice, Vodka and Peach Liquor.',
-            price: '7.50',
+            desc: null,
+            price: '6.50',
             allergenics: []
         },{
             name: 'Long Island Iced Tea',
-            desc: 'Coca-Cola, Triple Sec, Tequila, Vodka and Bacardi Rhum.',
-            price: '6.50',
+            desc: null,
+            price: '7.50',
             allergenics: []
         },{
             name: 'Cubatas',
@@ -145,9 +155,20 @@ export const ENG =[{
     ]
 }];
 
-export const ESP =[{
+export const beersESP =[{
     title: 'Cervezas',
     options: [
+        {
+            name: 'Estrella de Levante',
+            desc: 'Caña',
+            price: '1.50',
+            allergenics: []
+        },{
+            name: 'Estrella de Levante',
+            desc: 'Jarra',
+            price: '3.00',
+            allergenics: []
+        },
         {
             name: 'Corona',
             desc: '33Cl.',
@@ -215,68 +236,88 @@ export const ESP =[{
     options: [
         {
             name: 'Mojito',
-            desc: 'Azúcar, Menta, Sumo de Lima y Agua Gasificada.',
+            desc: null,
+            price: '6.50',
+            allergenics: []
+        },{
+            name: 'Mojito La Parrilla',
+            desc: 'Variedades: Fresa, Piña, Mango, Papaya, Melón y Sandía',
+            price: '7.50',
+            allergenics: []
+        },{
+            name: 'Spritz La Parrilla',
+            desc: 'Variedades: Violeta, Rosas, Piña, Flor de Sauco, Fresa, Melón, Sandía, Papaya, Vainilla y Mango.',
             price: '6.50',
             allergenics: []
         },{
             name: 'Piña Colada',
-            desc: 'Ron Bacardi, Sumo de Piña y Leche de Coco.',
+            desc: null,
             price: '6.50',
             allergenics: []
         },{
             name: 'Daikiri',
-            desc: 'Fresas, Azúcar, Sumo de Limón and Ron Bacardi.',
+            desc: 'Sabores: Fresa, Melón, Coco, Mango, Kiwi, Plátano, Manzana y Piña.',
             price: '6.50',
             allergenics: []
         },{
             name: 'Tequila Sunrise',
-            desc: 'Tequila, Granadina y Sumo de Naranja.',
+            desc: null,
             price: '6.50',
             allergenics: []
         },{
             name: 'Margarita',
-            desc: 'Sumo de Lima, Tequila y Cointreu.',
+            desc: null,
             price: '6.50',
             allergenics: []
         },{
             name: 'Coco Loco',
-            desc: 'Ron Bacardi, Vodka, Tequila, Crema de Coco y Sumo de Lima.',
+            desc: null,
             price: '6.50',
             allergenics: []
         },{
             name: 'Cosmopolitan',
-            desc: 'Vodka, Cointreu, Lima y sumo de Arandanos Rojos.',
-            price: '6.50',
-            allergenics: []
-        },{
-            name: 'Gin Tanqueray & Tonic',
             desc: null,
             price: '6.50',
             allergenics: []
         },{
-            name: 'Gin Mombasa & Tonic',
+            name: 'Gin & Tonic Tanqueray',
+            desc: null,
+            price: '6.50',
+            allergenics: []
+        },{
+            name: 'Gin & Tonic Mombasa',
             desc: null,
             price: '7.00',
             allergenics: []
         },{
-            name: 'Gin Bombay & Tonic',
+            name: 'Gin & Tonic Bombay',
             desc: null,
             price: '7.50',
             allergenics: []
         },{
-            name: 'Gin Kendrick & Tonic',
+            name: 'Gin & Tonic Kendrick',
             desc: null,
             price: '8.50',
             allergenics: []
         },{
-            name: 'Sex on the Beach',
-            desc: 'Sumo de Arandanos Rojos y Naranja, Vodka y Licor de Durazno.',
+            name: 'Gin Raw & Tonic',
+            desc: null,
             price: '7.50',
             allergenics: []
         },{
-            name: 'Long Island Iced Tea',
-            desc: 'Coca-Cola, Triple Sec, Tequila, Vodka y Ron Bacardi.',
+            name: 'Chase Gin Extra Dry & Tonic',
+            desc: null,
+            price: '7.50',
+            allergenics: []
+        },{
+            name: 'Sex on the Beach',
+            desc: null,
             price: '6.50',
+            allergenics: []
+        },{
+            name: 'Long Island Iced Tea',
+            desc: null,
+            price: '7.50',
             allergenics: []
         },{
             name: 'Cubatas',
