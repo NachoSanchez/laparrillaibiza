@@ -3,6 +3,17 @@ main h1 {
     margin-left: 5vw;
 }
 
+/*
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    right: 26vw;
+    height: 297px;
+    margin-top: -153px;
+    margin-left: 73%;
+    width: 300px;
+*/
+
 .img-wrapper {
     background-image: url('../assets/img/costillar.jpg');
     background-position: center;

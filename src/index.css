@@ -14,14 +14,44 @@ body {
   overflow-x: hidden;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(10, 10vh);
+  padding: 0 5vw;
+}
+
 html {
   scroll-behavior: smooth;
+}
+
+.loader-container {
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.nav{
+  position: absolute;
+  top: 0;
+  right: 5vw;
+  top: 30px;
+  z-index: 1;
+}
+
+#Toggle {
+  color: white;
+  margin-top: 30px;
 }
 
 ::-webkit-scrollbar {
   display: none;
 }
 
-::-moz-scrollbar {
-  display: none;
+@media (max-width: 800px) {
+
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }

@@ -1,0 +1,4 @@
+.contact h1 {
+    color: cyan;
+    grid-column: 1 / 4;
+}

@@ -5,10 +5,16 @@ import { LanguageContext } from '../contexts/LanguageContext';
 
 const ToggleLanguage = () => {
     const {english, setLanguage } = useContext(LanguageContext);
-
-    const css = {
+/* 
+    const cssA ={
+        color: 'white',
+        fontWeight: 'bold',
+        justifySelf: 'end'
+    }
+ */
+    const cssImg = {
         width: '25px',
-        marginLeft: '6px'  
+        marginLeft: '6px'
     }
 
     return (
@@ -17,7 +23,7 @@ const ToggleLanguage = () => {
         }>           
             { english ? 'ESP' : 'ENG'}
             <img 
-                style={ css }
+                style={ cssImg }
                 src={ english ? esp : eng } 
                 alt="Language toggle"
             />

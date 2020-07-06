@@ -73,7 +73,7 @@ export const ENG = [
             body: "Every one of our Specials 'A la brasa' comes with Fries, Marinated Aubergines & Peppers, Chimichurri and Criolla Sauce",
             options: [
                 {
-                    name: 'Mix Grill',
+                    name: 'Mix Grill (Price per Person)',
                     desc: 'Steak, chorizo, Black Pudding, Chicken leg, Secret (Pork), Short Ribs, skirt Steak',
                     price: '18.95',
                     allergenics: []
@@ -336,7 +336,7 @@ export const ESP = [
             body: 'Nuestros principales a la brasa vienen acompañadas de patatas fritas, berenjena y pimientos a la vinagreta, chimichurri y salsa criolla',
             options: [
                 {
-                    name: 'Parrillada (mínimo dos personas)',
+                    name: 'Parrillada (Precio por persona)',
                     desc: 'Entrecot, chorizo, morcilla, pollo, secreto, tira de asado, entraña y mazorca de maíz.',
                     price: '18.95',
                     allergenics: []
