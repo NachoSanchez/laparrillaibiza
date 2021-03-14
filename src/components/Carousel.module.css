@@ -4,7 +4,7 @@
 }
 
 .carousel span {
-    color: cyan;
+    color: #17CCE4;
 }
 
 .carousel h3 {
@@ -42,7 +42,7 @@
 }
 
 .carousel-item div:last-child {
-    color: cyan;
+    color: #17CCE4;
     height: 25%;
     padding: 7px 10px;
     width: 100%;

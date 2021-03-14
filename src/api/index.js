@@ -23,3 +23,12 @@ export const ESP = {
         text: 'Estamos esperandote en una ubicación privilegiada en las playas de Es Canar, Santa Eulalia del Rio, en la parte este de Ibiza, en la Comunidad Autonoma de las Islas Baleares, España.'
     }
 }
+
+//images for gallery component
+
+export const images = [
+    require('../assets/img/gallery-0.jpg'),
+    require('../assets/img/gallery-1.png'),
+    require('../assets/img/gallery-2.png'),
+    require('../assets/img/gallery-3.png')
+]

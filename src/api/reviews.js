@@ -12,10 +12,10 @@ export const ENG = [
         body: 'Awesome Place, good barbecue',
         source: 'Google'
     },{
-        user: 'Nico',
-        stars: 3,
-        date: '29/06/2020',
-        body: 'lorem ipsum dolor sit amet.',
+        user: 'Horacio Ramirez',
+        stars: 5,
+        date: '05/08/2020',
+        body: "Good food, good service. Somewhat 'calm' but very good overall.",
         source: 'Google'
     }
 ]
@@ -34,10 +34,10 @@ export const ESP = [
         body: 'Genial lugar, buen asado',
         source: 'Google'
     },{
-        user: 'Nico',
-        stars: 3,
-        date: '29/06/2020',
-        body: 'lorem ipsum dolor sit amet.',
+        user: 'Horacio Ramirez',
+        stars: 5,
+        date: '05/08/2020',
+        body: "Buena comida, buen servicio. Algo 'calmados' pero muy bien en general.",
         source: 'Google'
     }
 ]

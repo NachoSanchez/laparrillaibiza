@@ -61,7 +61,7 @@
 }
 
 .proposal h2{
-    color: cyan;
+    color: #17CCE4;
 }
 
 .proposal p {
@@ -110,7 +110,7 @@
 }
 
 .btn-ghost {
-    border: 2.5px solid cyan;
+    border: 2.5px solid #17CCE4;
     border-radius: 15px;
     color: white;
     font-size: 1em;

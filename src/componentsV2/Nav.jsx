@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import useTranslator from '../hooks/useTranslator';
 import Toggle from '../components/Toggle';
 import styles from './Home.module.css';
@@ -19,7 +20,11 @@ const Nav = () => {
     const links = useTranslator( ENG, ESP );
 
     return ( 
-        <nav>
+        <motion.nav 
+            initial ={{ x: 300, opacity: 0 }}
+            animate ={{ x: 0, opacity: 1 }}
+            transition ={{ duration: .5}}
+        >
                 <div className={ styles['social-icons'] }>
                     <a href="tel:+34971057078">
                         <svg viewBox="0 0 180.83 180.83">
@@ -58,7 +63,7 @@ const Nav = () => {
                 }
                 <Toggle />
                 </div>
-        </nav>
+        </motion.nav>
      );
 }
  

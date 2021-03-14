@@ -1,0 +1,186 @@
+.form-aside {
+    grid-column: 9 / 13;
+    grid-row: 3 / 11;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.form-aside__title {
+    color: #17CCE4;
+    font-size: 3rem;
+    margin:-30px 25px;
+    line-height: 2.5rem;
+}
+
+.form-container {
+    align-items: center;
+    display: flex;
+    background-color: #202020;
+    border-radius: 15px;
+    bottom: 0;
+    box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.25);
+    flex-direction: column;
+    margin: 20px;
+    max-height: 600px;
+    overflow: hidden;
+    padding: 2em 15px;
+    position: absolute;
+    width: 320px;
+}
+
+.step-2 {
+    display: block;
+    height: 525px;
+}
+
+.date-hour {
+    color: white;
+    margin: 0;
+    font-size: 35px;
+    font-weight: bold;
+    opacity: .9;
+    padding-bottom: 20px;
+}
+
+.date-hour__line {
+    border-bottom: 2px solid #17CCE4;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.contact-list {
+    list-style-type: none;
+}
+
+.contact-list li {
+    align-items: center;
+    display: flex;
+}
+
+.contact-list li p {
+    margin: 10px 20px
+}
+
+/**
+        Pieces.jsx styles here
+*/
+.svg-button__wrapper {
+    margin: 15px;
+    cursor: pointer;
+}
+
+.svg-button {
+    fill: #17CCE4;
+    width: 30px;
+}
+
+.icon {
+    fill : #17CCE4;
+    width: 20px;
+}
+
+.next-btn {
+    background-color: #17CCE4;
+    border: none;
+    border-radius: 5px;
+    color: #202020;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 15px auto;
+    padding: 5px;
+    text-align: center;
+    width: 250px;
+}
+
+.input-label {
+    color: #17CCE4;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.input-count__wrapper {
+    border-bottom: 2px solid #17CCE4;
+    height: 175px;
+    padding: 15px 0 -10px;
+    overflow: hidden;
+}
+
+.input-count__nav {
+    display: flex;
+    justify-content: center;
+}
+
+.input-count__nav div {
+    margin: 0;
+}
+
+.input-count {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 25px;
+}
+
+.input-count h2, .input-count span {
+    cursor: pointer;
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.input-count__able {
+    color: #17CCE4;
+}
+
+.input-count__disabled {
+    color: gray;
+    opacity: .5;
+}
+
+.input-field {
+    border-bottom: 2px solid gray;
+    color: gray;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    text-transform: uppercase;
+    transition: all 200ms ease-in;
+}
+
+.input-field input {
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.input-field input:focus {
+    border: none;
+}
+
+.input-field:focus-within {
+    border-bottom: 2px solid #17CCE4;
+    color: #17CCE4;
+    font-size: 20px;
+    padding: 5px 0 15px;
+}
+ 
+.input-field__value {
+    color: white;
+    left: 0;
+    text-transform: none;
+    opacity: .9;
+    position: absolute;
+}
+
+@media (max-width: 800px) {
+    .form-aside {
+        grid-column: 1 / 4;
+    }
+
+    .form-container {
+        margin: 20px auto;
+    }
+}

@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import logo from '../assets/img/logo.svg';
 import waveRight from '../assets/img/marea-large.svg';
 import waveLeft from '../assets/img/marea-simple.svg';
-import special from '../assets/img/carne-plato.png';
+//import special from '../assets/img/parrillada.jpg';
 import { ENG, ESP } from '../api/menu';
 import { LanguageContext } from '../contexts/LanguageContext';
 import styles from './Menu.module.css';
@@ -14,7 +14,7 @@ const Menu = () => {
     const menu = english ? ENG : ESP;
     
     return ( 
-        <section id='menu' className={ styles['menu-section'] }>
+        <section id='menu' className='grid-container'>
             <img src={ waveLeft } className={ styles['wave-left'] } alt="..."/>
             <img src={ waveRight } className={ styles['wave-right'] } alt="..."/>
             <div>
@@ -22,7 +22,6 @@ const Menu = () => {
                 <h2> { title } </h2>
             </div>
             <sidebar className={ styles['special'] }>
-                <img src={ special } alt='Plato del Mes, en La Parrilla Ibiza'/>
                 <div>
                     <h3> { menu[2].body } </h3>
                 </div>

@@ -1,0 +1,70 @@
+.hp-wrapper {
+    align-items: center;
+    align-content: center;
+    display: inline;
+}
+
+.hp-table {
+    display: grid;
+    grid-template-columns: 140px 140px;
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 0 5px;
+}
+
+.hp-table li {
+    border: 2px solid gray;
+    border-radius: 7px;
+    cursor: pointer;
+    color: white;
+    margin: 5px;
+    opacity: .9;
+    padding: 3px;
+    text-align: center;
+    transition: all 200ms ease-in;
+}
+
+.hp-table li:hover {
+    border: 2px solid #17CCE4;
+    color: white;
+    opacity: 1;
+}
+
+.hp-table h4 {
+    margin: 10px;
+}
+
+.hp-date {
+    color: #17CCE4;
+    text-align: center;
+    margin: 15px auto;
+    width: 100%;
+}
+
+.hp-hour {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.hp-hour h4 {
+    font-size: 4rem;
+    font-weight: 300;
+    color: white;
+    opacity: .9;
+}
+
+.hp-hour small {
+    border: 2px solid #17CCE4;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px 20px;
+    opacity: .9;
+}
+
+.hp-hour small:hover {
+    opacity: 1;
+}

@@ -1,0 +1,10 @@
+.gallery-container {
+    grid-row: 3 / 9;
+    grid-column: 1 / 6;
+    height: 400px;
+    overflow: hidden;
+}
+
+.gallery-container img {
+    width: 400px;
+}

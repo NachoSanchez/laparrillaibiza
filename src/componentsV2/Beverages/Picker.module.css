@@ -1,0 +1,12 @@
+.picker-container {
+    grid-row: 2 / 9;
+    grid-column : 1 / 4;
+    overflow: hidden;
+}
+.img-wrapper {
+    height: 400px;
+    width: 250px;
+    overflow: hidden;
+    margin: 0 auto;
+    transform: scale(.8);
+}

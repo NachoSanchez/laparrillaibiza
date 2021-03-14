@@ -1,0 +1,100 @@
+.dp-wrapper {
+    display: block;
+    min-height: 275px;
+}
+.dp-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 2px;
+    width: 280px;
+    height: 50px;
+}
+
+.dp-header div {
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.dp-header h2 {
+    color: white;
+    opacity: .9;
+}
+
+.dp-prev {
+    width: 0; 
+    height: 0; 
+    border: 10px solid transparent;
+    border-right:10px solid #17CCE4;
+}
+
+.dp-next {
+    width: 0; 
+    height: 0; 
+    border: 10px solid transparent;
+    border-left:10px solid #17CCE4;
+}
+
+.dp-prev-disabled {
+    border-right: 10px solid gray;
+}
+
+.dp-next-disabled {
+    border-left: 10px solid gray;
+}
+
+.dp-calendar, .dp-weekdays {
+    display: grid;
+    grid-template-columns: repeat( 7, 40px);
+    text-align: center;
+}
+
+.dp-weekdays {
+    color: white;
+    font-size: .8em;
+    text-transform: uppercase;
+    margin: 15px auto;
+    opacity: .9;
+}
+
+.dp-calendar label {
+    align-items: center;
+    display: inline-flex;
+    border-radius: 50%;
+    font-size: .8em;
+    margin: 3px auto;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+}
+
+.dp-calendar__day {
+    color: gray;
+    cursor: pointer;
+}
+
+.dp-calendar__day input[type=radio],
+.dp-calendar__day-avalible input[type=radio] {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.dp-calendar__day-avalible {
+    color: #17CCE4;
+    font-size: .8em;
+    text-align: center;
+    font-weight: bold;
+    transition: all 200ms ease-in;
+}
+
+.dp-calendar__day-avalible:hover {
+    cursor: pointer;
+    background-color: #17CCE4;
+    color: #303030;
+}
+
+.dp-calendar__day-avalible:focus-within {
+    font-size: 1em;
+} 
+

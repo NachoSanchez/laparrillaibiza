@@ -10,17 +10,20 @@ const ToggleLanguage = () => {
         color: 'white',
         fontWeight: 'bold',
         justifySelf: 'end'
-    }
+    };
  */
     const cssImg = {
         width: '25px',
         marginLeft: '6px'
-    }
+    };
+
+    const handleClik = (e) => {
+        e.preventDefault();
+        setLanguage(!english)
+    };
 
     return (
-        <a href='#'  onClick={
-            ()=> ( setLanguage(!english))
-        }>           
+        <a href='/'  onClick={ handleClik }>           
             { english ? 'ESP' : 'ENG'}
             <img 
                 style={ cssImg }

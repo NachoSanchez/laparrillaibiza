@@ -16,9 +16,11 @@ body {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(10, 10vh);
+  grid-template-columns: repeat(12, 7.5vw);
+  grid-auto-rows: 10vh;
   padding: 0 5vw;
+  position: relative;
+  overflow-x: hidden;
 }
 
 html {
@@ -49,9 +51,22 @@ html {
   display: none;
 }
 
+#special-img  {
+  background-image: url('./assets/img/parrillada.jpg');
+  background-size: 100%;
+  background-position-y: bottom;
+  margin: 30px auto;
+  display: block;
+  width: 500px;
+}
+
 @media (max-width: 800px) {
 
   .grid-container {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 30vw);
+  }
+
+  #special-img {
+    width: 300px;
   }
 }

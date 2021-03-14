@@ -1,0 +1,132 @@
+.special {
+    grid-column : 1 / 6;
+    grid-row: 4 / 9;
+}
+
+.special-wrap {
+    background-position: center bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    box-shadow: 2px 4px 10px black;
+    display: flex;
+    cursor: pointer;
+    height: 250px;
+    overflow: hidden;
+    padding: 20px 1em;
+}
+
+.special-wrap:hover {
+    color: #17CCE4;
+}
+
+.special-body h2 {
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-shadow: 0 2px 4px black;
+}
+
+.special-body p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.special-body span {
+    border:  2px solid #17CCE4;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 40px 0;
+    padding: 5px 20px;
+}
+
+.special-body img {
+    position: absolute;
+    transform: rotate(180deg);
+    margin-top: -40px;
+    margin-left: 100px;
+    width: 400px;
+    z-index: -1
+}
+
+.special-body {
+    margin-top: -70px;
+    align-self: flex-end;
+    padding: 0 10px;
+}
+
+.backdrop {
+    display: flex;
+    background-color: rgba(0, 0, 0, .8);
+    height: 100vh;
+    left: 0;
+    top: 0;
+    position: fixed;
+    width: 100vw;
+    z-index: 2;
+    overflow: scroll;
+}
+
+.close-btn {
+    align-items: center;
+    border-radius: 50%;
+    border: 3px solid #17CCE4;
+    cursor: pointer;
+    display: flex;
+    padding: 5px;
+    width: 40px;
+}
+
+.close-btn svg {
+    fill : #17CCE4;
+    width: 40px;
+    transform: rotate(45deg);
+}
+
+.list-wrapper {
+    position: relative;
+    min-width: 90vw;
+    max-width: 300px;
+    margin: auto;
+    padding: 1em;
+    z-index: 3;
+}
+
+.list-wrapper ul {
+    list-style-type: none;
+}
+
+.list-header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.list-item {
+    border-bottom: 3px dotted #17CCE4;
+    margin: 10px 0;
+    max-width: 400px;
+}
+
+.list-item h3 {
+    color: #17CCE4;
+    font-size: 25px;
+}
+
+.list-item h4 {
+    text-align: end;
+    font-size: 20px;
+}
+
+@media (max-width: 800px) {
+    .special {
+        margin-top : -30px
+    }
+}
+
+@media (max-width: 400px) {
+    .special {
+        margin-top: -10;
+    }
+}
